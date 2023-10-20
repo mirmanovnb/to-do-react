@@ -1,0 +1,44 @@
+.add_todo {
+  background-color: rgb(137, 109, 73);
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition-property: background-color transform;
+  transition-duration: 0.5s;
+}
+
+.add_todo:hover {
+  background-color: rgb(104, 83, 57);
+  transform: scale(1);
+}
+
+.filter_btn {
+  color: white;
+  padding: 5px 15px;
+  border: 1px solid brown;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 20px;
+  box-shadow: 1px 1px 1px bisque;
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+}
+
+.all {
+  background-color: cadetblue;
+}
+.done {
+  background-color: brown;
+}
+.notDone {
+  background-color: #c8a28f;
+}
+
+.all:hover,
+.done:hover,
+.notDone:hover {
+  box-shadow: 3px 3px 3px rgb(138, 192, 39);
+}
